@@ -5,87 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Алексей Алексеев</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body{
-            background:#0c0c0c;
-            color:white;
-            font-family:Arial, Helvetica, sans-serif;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            height:100vh;
-            text-align:center;
-        }
-
-        .card{
-            max-width:600px;
-            padding:40px;
-        }
-
-        h1{
-            font-size:52px;
-            margin-bottom:20px;
-        }
-
-        p{
-            font-size:20px;
-            color:#bdbdbd;
-            line-height:1.6;
-            margin-bottom:40px;
-        }
-
-        a{
-            display:inline-block;
-            background:#D4AF37;
-            color:#000;
-            text-decoration:none;
-            padding:18px 42px;
-            border-radius:999px;
-            font-size:18px;
-            font-weight:bold;
-            transition:.25s;
-        }
-
-        a:hover{
-            transform:translateY(-3px);
-        }
-
-        @media(max-width:700px){
-
-            h1{
-                font-size:38px;
-            }
-
-            p{
-                font-size:18px;
-            }
-
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="card">
+    <div class="card">
 
-<h1>Алексей Алексеев</h1>
+        <h1>Алексей Алексеев</h1>
 
-<p>
-Маркетинг • Личный бренд • Недвижимость в Дубае
-</p>
+        <p>
+            Маркетинг • Личный бренд • Недвижимость в Дубае
+        </p>
 
-<a href="https://t.me/alex_cashflow" target="_blank">
-Написать в Telegram
-</a>
+        <a
+            class="telegram-btn"
+            href="https://t.me/alex_cashflow"
+            target="_blank">
+            Написать в Telegram
+        </a>
 
-</div>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
