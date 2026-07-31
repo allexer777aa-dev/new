@@ -1,1 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root{
+    --gold:#D4AF37;
+    --bg:#090909;
+    --text:#ffffff;
+    --gray:#9d9d9d;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+        radial-gradient(circle at top right,#3b2f08 0%,transparent 35%),
+        radial-gradient(circle at bottom left,#221a05 0%,transparent 30%),
+        var(--bg);
+
+    color:var(--text);
+
+    font-family:Inter,Arial,sans-serif;
+
+    overflow:hidden;
+}
+
+.card{
+
+    width:min(92%,700px);
+
+    padding:60px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:30px;
+
+    backdrop-filter:blur(12px);
+
+    background:rgba(255,255,255,.03);
+
+    animation:fadeUp 1s ease;
+}
+
+h1{
+
+    font-size:58px;
+
+    margin-bottom:22px;
+
+    letter-spacing:-2px;
+
+}
+
+p{
+
+    color:var(--gray);
+
+    line-height:1.8;
+
+    font-size:20px;
+
+    margin-bottom:45px;
+
+}
+
+.telegram-btn{
+
+    display:inline-block;
+
+    padding:18px 42px;
+
+    border-radius:999px;
+
+    background:var(--gold);
+
+    color:#000;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.35s;
+
+    box-shadow:0 0 30px rgba(212,175,55,.35);
+
+}
+
+.telegram-btn:hover{
+
+    transform:translateY(-5px) scale(1.04);
+
+    box-shadow:0 0 60px rgba(212,175,55,.6);
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+@media(max-width:700px){
+
+    .card{
+
+        padding:40px 28px;
+
+    }
+
+    h1{
+
+        font-size:38px;
+
+    }
+
+    p{
+
+        font-size:18px;
+
+    }
+
+}
