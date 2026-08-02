@@ -166,23 +166,30 @@ a{
 ========================= */
 
 .telegram-button{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 
-    padding:18px 34px;
+    width: 320px;
+    height: 64px;
 
-    background:#ffffff;
-    color:#111111;
+    background: #ffffff;
+    color: #111111;
 
-    border-radius:16px;
+    border-radius: 20px;
 
-    font-size:18px;
-    font-weight:700;
+    font-size: 20px;
+    font-weight: 700;
 
-    margin-bottom:20px;
+    margin-bottom: 24px;
 
-    transition:.3s;
+    transition: all .3s ease;
+}
+
+.telegram-button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 18px 40px rgba(255,255,255,.18);
 }
 
 .telegram-button:hover{
