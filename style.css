@@ -229,3 +229,7 @@ a{
     display: block;
     flex-shrink: 0;
 }
+.gold-text{
+    color: #D8B25C;
+    font-weight: 700;
+}
