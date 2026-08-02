@@ -151,9 +151,9 @@ a{
 
 .stat{
     flex: 1;
-    min-width: 280px;
+    min-width: 250px;
 
-    padding: 30px;
+    padding: 24px;
 
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.08);
