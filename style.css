@@ -215,7 +215,6 @@ a{
 }
 
 .telegram-button:hover{
-    transform:translateY(-3px);
-    box-shadow:0 20px 40px rgba(255,255,255,.15);
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(255,255,255,.15);
 }
-
