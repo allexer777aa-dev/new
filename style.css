@@ -120,15 +120,15 @@ a{
 
 .stats{
     display: flex;
-    gap: 24px;
+    gap: 30px;
     margin-bottom: 48px;
 }
 
 .stat{
     flex: 1;
-    min-width: 220px;
+    min-width: 280px;
 
-    padding: 28px;
+    padding: 30px;
 
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.08);
