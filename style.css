@@ -72,7 +72,16 @@ a{
     z-index: 2;
     max-width: 560px;
 }
+.hero-image{
+    position: absolute;
 
+    right: -60px;
+    bottom: -40px;
+
+    width: 700px;
+
+    z-index: 1;
+}
 .hero-image::before{
     content: "";
 
