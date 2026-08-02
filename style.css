@@ -74,9 +74,12 @@ a{
 
 .hero-image{
     position: absolute;
-    right: -80px;
-    bottom: 0;
-    width: 700px;
+
+    right: -20px;
+    bottom: -40px;
+
+    width: 620px;
+
     z-index: 1;
 }
 
