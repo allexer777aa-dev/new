@@ -127,7 +127,9 @@ a{
     letter-spacing: -2px;
     margin-bottom: 56px;
 }
-
+.hero-content h1 span{
+    color: #D8B25C;
+}
 .hero-content h2{
     font-size: 28px;
     line-height: 1.35;
