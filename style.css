@@ -109,7 +109,7 @@ a{
 .hero-content p{
     font-size:18px;
     line-height:1.7;
-    color:#b7b7b7;
+    color:#d0d0d0;
     max-width:520px;
     margin-bottom:34px;
 }
@@ -176,7 +176,7 @@ a{
     font-size:18px;
     font-weight:700;
 
-    margin-bottom:34px;
+    margin-bottom:20px;
 
     transition:.3s;
 }
