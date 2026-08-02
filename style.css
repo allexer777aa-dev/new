@@ -196,3 +196,7 @@ a{
     transform:translateY(-3px);
     box-shadow:0 20px 40px rgba(255,255,255,.15);
 }
+.telegram-button img{
+    width: 24px;
+    height: 24px;
+}
