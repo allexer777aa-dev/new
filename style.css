@@ -112,6 +112,8 @@ a{
     filter: blur(45px);
 
     z-index: -1;
+
+   display: none
 }
 
 .hero-image img{
