@@ -117,6 +117,8 @@ a{
 .hero-image img{
     width: 100%;
     display: block;
+
+    filter: drop-shadow(0 0 35px rgba(207,167,74,.22));
 }
 /* =========================
    HERO CONTENT
