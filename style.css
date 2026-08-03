@@ -163,6 +163,13 @@ a{
 
     padding: 24px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.08);
 
@@ -184,6 +191,7 @@ a{
     font-weight: 700;
     margin-bottom: 10px;
     color: #fff;
+    text-align: center;
 }
 
 .stat .text{
@@ -192,6 +200,7 @@ a{
     letter-spacing:.5px;
     text-transform:uppercase;
     color: #9e9e9e;
+    text-align: center;
 }
 /* =========================
    TELEGRAM BUTTON
@@ -251,5 +260,5 @@ border: 1px solid #CFA74A;
 
     margin-bottom: 14px;
 
-    opacity: .9;
+    display: block;
 }
