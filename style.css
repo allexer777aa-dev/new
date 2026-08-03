@@ -79,10 +79,10 @@ a{
 .hero-image{
     position: absolute;
 
-    right: -60px;
-    bottom: -40px;
+    right: -20px;
+    bottom: -20px;
 
-    width: 700px;
+    width: 620px;
 
     z-index: 1;
 }
