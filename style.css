@@ -224,18 +224,19 @@ border: 1px solid #CFA74A;
 
     margin-bottom: 34px;
 
+    box-shadow: 0 8px 24px rgba(207,167,74,.18);
+   
     transition: all .3s ease;
 }
 
 .telegram-button:hover{
-    background:#fff;
+    transform: translateY(-3px);
 
-    border-color:#D8B25C;
+    background: #D8B25C;
 
-    box-shadow:0 12px 35px rgba(216,178,92,.25);
-
-    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 14px 36px rgba(207,167,74,.35);
 }
+
 .telegram-button img{
     width: 20px;
     height: 20px;
