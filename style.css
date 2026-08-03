@@ -91,11 +91,11 @@ a{
 
     position: absolute;
 
-    width: 520px;
-    height: 520px;
+    width: 820px;
+    height: 820px;
 
-    left: 50%;
-    top: 45%;
+    left: 52%;
+    top: 42%;
 
     transform: translate(-50%, -50%);
 
@@ -103,9 +103,13 @@ a{
 
     background: radial-gradient(
         circle,
-        rgba(216,178,92,.18) 0%,
-        rgba(216,178,92,0) 70%
+        rgba(207,167,74,.55) 0%,
+        rgba(207,167,74,.28) 35%,
+        rgba(207,167,74,.10) 60%,
+        rgba(207,167,74,0) 82%
     );
+
+    filter: blur(45px);
 
     z-index: -1;
 }
