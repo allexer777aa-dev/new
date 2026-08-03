@@ -238,3 +238,10 @@ border: 1px solid #CFA74A;
     color: #D8B25C;
     font-weight: 700;
 }
+.quote-text{
+    font-family: "Caveat", cursive;
+    font-size: 36px;
+    font-weight: 700;
+    color: #D8B25C;
+    line-height: 1.2;
+}
