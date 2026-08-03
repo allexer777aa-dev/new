@@ -161,7 +161,7 @@ a{
     flex: 1;
     min-width: 250px;
 
-    padding: 24px;
+    padding: 30px 24px 26px;
 
     display: flex;
     flex-direction: column;
