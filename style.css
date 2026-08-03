@@ -225,7 +225,7 @@ border: 1px solid #CFA74A;
 
     box-shadow:0 12px 35px rgba(216,178,92,.25);
 
-    transform:translateY(-3px);
+    transform: translateY(-3px) scale(1.02);
 }
 .telegram-button img{
     width: 20px;
