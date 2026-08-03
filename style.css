@@ -219,8 +219,13 @@ a{
 }
 
 .telegram-button:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 20px 40px rgba(255,255,255,.15);
+    background:#fff;
+
+    border-color:#D8B25C;
+
+    box-shadow:0 12px 35px rgba(216,178,92,.25);
+
+    transform:translateY(-3px);
 }
 .telegram-button img{
     width: 20px;
