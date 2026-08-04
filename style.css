@@ -80,7 +80,7 @@ a{
     position: absolute;
 
     right: -20px;
-    bottom: -20px;
+    bottom: -50px;
 
     width: clamp(480px, 38vw, 620px);
 
