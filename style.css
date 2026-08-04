@@ -311,3 +311,18 @@ border: 1px solid #CFA74A;
         min-width: 220px;
     }
 }
+@media (min-width: 1920px){
+
+    .container{
+        max-width: 1800px;
+    }
+
+    .hero-image{
+        width: 700px;
+        right: -30px;
+    }
+
+    .hero-content h1{
+        font-size: 72px;
+    }
+}
