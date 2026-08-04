@@ -274,6 +274,13 @@ border: 1px solid #CFA74A;
 .mobile-button{
     display: none;
 }
+.tablet-image{
+    display: none;
+}
+
+.desktop-image{
+    display: block;
+}
 /* =========================
    LAPTOP
 ========================= */
