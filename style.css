@@ -82,7 +82,7 @@ a{
     right: -20px;
     bottom: -20px;
 
-    width: clamp(520px, 42vw, 680px);
+    width: clamp(500px, 38vw, 600px);
 
     z-index: 1;
 }
