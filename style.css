@@ -82,7 +82,7 @@ a{
     right: -20px;
     bottom: -20px;
 
-    width: 300px;
+    width: clamp(480px, 38vw, 620px);
 
     z-index: 1;
 }
@@ -280,12 +280,7 @@ border: 1px solid #CFA74A;
         padding: 0 80px;
     }
 
-    .hero-image{
-        width: 620px;
-        right: -40px;
-    }
-
-    .hero-content{
+      .hero-content{
         max-width: 520px;
     }
 
@@ -303,12 +298,7 @@ border: 1px solid #CFA74A;
         padding: 0 60px;
     }
 
-    .hero-image{
-        width: 560px;
-        right: -20px;
-    }
-
-    .hero-content h1{
+      .hero-content h1{
         font-size: 52px;
     }
 
