@@ -334,3 +334,50 @@ border: 1px solid #CFA74A;
         font-size: 32px;
     }
 }
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px){
+
+    .container{
+        padding: 0 40px;
+    }
+
+    .hero{
+        height: auto;
+        min-height: 100vh;
+        padding: 60px 0;
+    }
+
+    .hero-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content{
+        max-width: 700px;
+        margin-top: 0;
+    }
+
+    .hero-image{
+        position: relative;
+        right: auto;
+        bottom: auto;
+
+        width: 500px;
+
+        margin-top: 40px;
+    }
+
+    .stats{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .stat{
+        min-width: 220px;
+    }
+}
