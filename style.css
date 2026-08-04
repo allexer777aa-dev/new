@@ -271,6 +271,9 @@ border: 1px solid #CFA74A;
 
     display: block;
 }
+.mobile-button{
+    display: none;
+}
 /* =========================
    LAPTOP
 ========================= */
