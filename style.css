@@ -395,4 +395,5 @@ border: 1px solid #CFA74A;
     display:inline-flex;
     margin-top:30px;
     margin-bottom:0;
+    align-self:center;
 }
