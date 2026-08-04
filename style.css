@@ -162,7 +162,7 @@ a{
 .stats{
     display: flex;
     gap: 30px;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
 }
 
 .stat{
