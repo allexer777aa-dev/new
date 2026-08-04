@@ -230,8 +230,8 @@ border: 1px solid #CFA74A;
     font-size: 18px;
     font-weight: 700;
 
-    margin-bottom: 15px;
-
+    margin-bottom: 35px;
+    margin-top: 15px;
     box-shadow: 0 8px 24px rgba(207,167,74,.18);
    
     transition: all .3s ease;
