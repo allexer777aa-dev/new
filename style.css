@@ -434,7 +434,10 @@ border: 1px solid #CFA74A;
     .hero-title h2{
         font-size: 22px;
     }
-
+.stat{
+    min-width: 200px;
+    width: 100%;
+}
    .stats{
     grid-area: stats;
     display: flex;
