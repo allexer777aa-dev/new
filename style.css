@@ -408,7 +408,9 @@ border: 1px solid #CFA74A;
         gap: 20px 25px;
         align-items: start;
     }
-
+.container{
+    padding: 0 20px;
+}
     .hero-content{
         display: contents;
     }
