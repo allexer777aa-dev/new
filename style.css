@@ -122,7 +122,7 @@ a{
 
     filter: drop-shadow(0 0 35px rgba(207,167,74,.22));
 }
-.tablet-row{
+.tablet-layout{
     display: contents;
 }
 /* =========================
@@ -372,7 +372,7 @@ border: 1px solid #CFA74A;
         margin-bottom:35px;
     }
 
-    .tablet-row{
+    .tablet-layout{
 
         display:flex;
 
