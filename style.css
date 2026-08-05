@@ -372,6 +372,10 @@ border: 1px solid #CFA74A;
 
 .hero-content p{
     grid-area: text;
+
+    max-width: 520px;
+    margin: 0 auto;
+
     text-align: center;
 }
 
