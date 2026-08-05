@@ -66,9 +66,9 @@ a{
     position: relative;
     width: 100%;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 620px 1fr;
     align-items: center;
-    justify-content: space-between;
 }
 
 .hero-content{
