@@ -342,7 +342,7 @@ border: 1px solid #CFA74A;
 
     .hero-grid{
     display: grid;
-    grid-template-columns: 1fr 450px;
+    grid-template-columns: 1fr 45%;
     grid-template-areas:
         "title title"
         "stats image"
