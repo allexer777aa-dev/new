@@ -359,6 +359,8 @@ border: 1px solid #CFA74A;
 .hero-title{
     grid-area: title;
     text-align: center;
+    margin-top: 40px;      /* увеличьте до 40-50px, если нужно */
+    margin-bottom: 30px;
 }
 
 .stats{
