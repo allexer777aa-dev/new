@@ -385,7 +385,16 @@ border: 1px solid #CFA74A;
         margin-bottom:35px;
 
     }
+.tablet-left{
+    flex:0 0 310px;
+}
 
+.tablet-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
     .stats{
 
         display:flex;
