@@ -372,15 +372,37 @@ border: 1px solid #CFA74A;
     align-items: center;
     }
 
-    .hero-image{
-        position: relative;
-        right: auto;
-        bottom: auto;
+   .hero-image{
+    display: none;
+}
+   .tablet-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    margin: 30px 0;
+}
 
-        width: 500px;
+.tablet-image{
+    display: block;
+    position: relative;
+    width: 320px;
+    flex-shrink: 0;
+}
 
-        margin-top: 40px;
-    }
+.tablet-row .stats{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    flex: 1;
+}
+
+.tablet-row .stat{
+    width: 100%;
+    min-width: 0;
+}
 
     .stats{
         flex-wrap: wrap;
