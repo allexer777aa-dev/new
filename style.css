@@ -399,7 +399,7 @@ border: 1px solid #CFA74A;
 
     .hero-grid{
         display: grid;
-        grid-template-columns: 1fr 340px;
+        grid-template-columns: 1fr 390px;
         grid-template-areas:
             "title title"
             "stats image"
@@ -435,8 +435,8 @@ border: 1px solid #CFA74A;
         font-size: 22px;
     }
 .stat{
-    min-width: 200px;
-    width: 100%;
+    min-width: 180px;
+    width: 90%;
 }
    .stats{
     grid-area: stats;
@@ -461,7 +461,7 @@ border: 1px solid #CFA74A;
         grid-area: image;
         position: relative;
         width: 100%;
-        max-width: 360px;
+        max-width: 415px;
         margin: 0;
     }
 
