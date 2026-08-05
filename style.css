@@ -411,6 +411,11 @@ border: 1px solid #CFA74A;
 .container{
     padding: 0 20px;
 }
+   .hero{
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 0;
+}
     .hero-content{
         display: contents;
     }
@@ -430,10 +435,12 @@ border: 1px solid #CFA74A;
         font-size: 22px;
     }
 
-    .stats{
-        grid-area: stats;
-        gap: 12px;
-    }
+   .stats{
+    grid-area: stats;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
     .hero-content p{
         grid-area: text;
