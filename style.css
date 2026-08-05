@@ -290,6 +290,7 @@ border: 1px solid #CFA74A;
 
     .hero-content h1{
         font-size: 58px;
+       margin-left:600px;
     }
 
     .hero-content h2{
@@ -304,7 +305,7 @@ border: 1px solid #CFA74A;
 
       .hero-content h1{
         font-size: 52px;
-         margin-left:600px;
+         
     }
 
     .stats{
