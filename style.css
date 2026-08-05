@@ -393,3 +393,64 @@ border: 1px solid #CFA74A;
     bottom: auto;
     margin: 0;
 }
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+
+    .hero-grid{
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        grid-template-areas:
+            "title title"
+            "stats image"
+            "text text"
+            "button button";
+        gap: 20px 25px;
+        align-items: start;
+    }
+
+    .hero-content{
+        display: contents;
+    }
+
+    .hero-title{
+        grid-area: title;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .hero-title h1{
+        font-size: 46px;
+    }
+
+    .hero-title h2{
+        font-size: 22px;
+    }
+
+    .stats{
+        grid-area: stats;
+        gap: 12px;
+    }
+
+    .hero-content p{
+        grid-area: text;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .telegram-button{
+        grid-area: button;
+        justify-self: center;
+    }
+
+    .hero-image{
+        grid-area: image;
+        position: relative;
+        width: 100%;
+        max-width: 360px;
+        margin: 0;
+    }
+
+}
