@@ -348,8 +348,8 @@ border: 1px solid #CFA74A;
     }
 
     .hero{
-        height:auto;
         min-height:100vh;
+        height:auto;
         padding:60px 0;
     }
 
@@ -364,27 +364,23 @@ border: 1px solid #CFA74A;
 
     .hero-content h1{
         text-align:center;
-        font-size:52px;
-        margin-bottom:20px;
+        margin-bottom:18px;
     }
 
     .hero-content h2{
         text-align:center;
-        font-size:24px;
         margin-bottom:35px;
     }
-
-    /* Карточки + фотография */
 
     .tablet-row{
 
         display:flex;
 
-        justify-content:space-between;
-
         align-items:center;
 
-        gap:35px;
+        justify-content:space-between;
+
+        gap:50px;
 
         margin-bottom:35px;
 
@@ -398,11 +394,11 @@ border: 1px solid #CFA74A;
 
         gap:18px;
 
-        width:320px;
+        width:310px;
 
         margin:0;
 
-        flex:0 0 320px;
+        flex:0 0 310px;
 
     }
 
@@ -418,27 +414,29 @@ border: 1px solid #CFA74A;
 
         position:relative;
 
+        width:420px;
+
         right:auto;
 
         bottom:auto;
 
-        width:380px;
-
         margin:0;
-
-        flex:1;
 
         display:flex;
 
         justify-content:center;
 
+        align-items:center;
+
+        flex:1;
+
     }
 
     .hero-image::before{
 
-        width:620px;
+        width:560px;
 
-        height:620px;
+        height:560px;
 
     }
 
@@ -446,17 +444,17 @@ border: 1px solid #CFA74A;
 
         width:100%;
 
-        max-width:380px;
+        max-width:420px;
 
     }
 
     .hero-content p{
 
-        max-width:100%;
-
         text-align:center;
 
-        margin-bottom:24px;
+        max-width:100%;
+
+        margin-bottom:25px;
 
     }
 
