@@ -399,7 +399,7 @@ border: 1px solid #CFA74A;
 
     .hero-grid{
         display: grid;
-        grid-template-columns: 1fr 340px;
+        grid-template-columns: 1fr 40px;
         grid-template-areas:
             "title title"
             "stats image"
