@@ -342,14 +342,13 @@ border: 1px solid #CFA74A;
 
     .hero-grid{
     display: grid;
-    grid-template-columns: 1fr 440px;
+    grid-template-columns: 55% 45%;
     grid-template-areas:
         "title title"
         "stats image"
         "text text"
         "button button";
-    gap: 25px 40px;
-    align-items: start;
+    gap: 30px;
 }
 
 .hero-content{
@@ -386,12 +385,9 @@ border: 1px solid #CFA74A;
 
 .hero-image{
     grid-area: image;
-    position: relative;
     width: 100%;
-    max-width: 500px;
-    right: auto;
-    bottom: auto;
-    margin: 0;
+    max-width: 420px;
+    justify-self: end;
 }
 @media (min-width: 600px) and (max-width: 768px){
 
