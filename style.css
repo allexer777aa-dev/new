@@ -334,6 +334,13 @@ border: 1px solid #CFA74A;
         font-size: 32px;
     }
 }
+.tablet-row{
+    display: none;
+}
+
+.tablet-image{
+    display: none;
+}
 /* =========================
    TABLET
 ========================= */
