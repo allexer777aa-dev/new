@@ -443,6 +443,8 @@ border: 1px solid #CFA74A;
     display: flex;
     flex-direction: column;
     gap: 12px;
+
+    margin-left: 15px;  
 }
 
     .hero-content p{
@@ -463,6 +465,8 @@ border: 1px solid #CFA74A;
         width: 100%;
         max-width: 415px;
         margin: 0;
+
+        margin-left: -15px;
     }
 
 }
