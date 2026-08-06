@@ -495,7 +495,7 @@ border: 1px solid #CFA74A;
         "stats"
         "text"
         "button";
-    justify-items: stretch;
+    justify-items: center;
     gap: 25px;
 }
 
