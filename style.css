@@ -544,9 +544,14 @@ border: 1px solid #CFA74A;
 
 .telegram-button{
     grid-area: button;
+
     width: 100%;
     max-width: 320px;
-    justify-self: center;
+    height: 56px;
+
+    font-size: 17px;
+
+    margin-top: 10px;
 }
     .hero-title h1{
         font-size:38px;
