@@ -487,25 +487,60 @@ border: 1px solid #CFA74A;
         padding: 40px 0;
     }
 
-    .hero-grid{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-    }
+   .hero-grid{
+    display: grid;
+    grid-template-areas:
+        "title"
+        "image"
+        "stats"
+        "text"
+        "button";
+    justify-items: center;
+    gap: 25px;
+}
 
-    .hero-content{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        width:100%;
-        max-width:100%;
-    }
+   .hero-content{
+    display: contents;
+}
 
     .hero-title{
-        text-align:center;
-        margin-bottom:25px;
-    }
+    grid-area: title;
+    text-align: center;
+}
+.hero-image{
+    grid-area: image;
 
+    position: relative;
+    right: auto;
+    bottom: auto;
+
+    width: 100%;
+    max-width: 320px;
+
+    margin: 0;
+}
+
+.stats{
+    grid-area: stats;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero-content p{
+    grid-area: text;
+    max-width: 100%;
+    text-align: center;
+}
+
+.telegram-button{
+    grid-area: button;
+    width: 100%;
+    max-width: 320px;
+    justify-self: center;
+}
     .hero-title h1{
         font-size:38px;
         line-height:1;
