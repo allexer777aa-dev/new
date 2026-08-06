@@ -531,8 +531,15 @@ border: 1px solid #CFA74A;
 
 .hero-content p{
     grid-area: text;
+
     max-width: 100%;
+
+    font-size: 16px;
+    line-height: 1.7;
+
     text-align: center;
+
+    margin: 5px 0;
 }
 
 .telegram-button{
@@ -551,5 +558,28 @@ border: 1px solid #CFA74A;
         font-size:20px;
         line-height:1.4;
     }
+.stat{
+    width: 100%;
+    min-width: 0;
 
+    padding: 22px 18px;
+
+    border-radius: 18px;
+}
+.quote-text{
+    font-size: 24px;
+}
+.stat .number{
+    font-size: 24px;
+}
+
+.stat .text{
+    font-size: 13px;
+}
+
+.stat-icon{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 12px;
+}
 }
