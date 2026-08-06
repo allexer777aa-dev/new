@@ -471,3 +471,50 @@ border: 1px solid #CFA74A;
     }
 
 }
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 599px){
+
+    .container{
+        padding: 0 20px;
+    }
+
+    .hero{
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 0;
+    }
+
+    .hero-grid{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .hero-content{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+        max-width:100%;
+    }
+
+    .hero-title{
+        text-align:center;
+        margin-bottom:25px;
+    }
+
+    .hero-title h1{
+        font-size:38px;
+        line-height:1;
+        margin-bottom:18px;
+    }
+
+    .hero-title h2{
+        font-size:20px;
+        line-height:1.4;
+    }
+
+}
