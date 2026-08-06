@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"RealEstateAgent",
+  "name":"Алексей Меркулов",
+  "url":"https://alexeymerkulov.ru",
+  "image":"https://alexeymerkulov.ru/assets/portrait.webp",
+  "description":"Эксперт по недвижимости в Дубае.",
+  "areaServed":"Dubai, UAE",
+  "knowsAbout":[
+    "Недвижимость в Дубае",
+    "Новостройки Дубая",
+    "Рассрочка",
+    "Инвестиции в недвижимость"
+  ]
+}
+</script>
